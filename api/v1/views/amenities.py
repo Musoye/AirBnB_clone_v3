@@ -26,7 +26,7 @@ def get_a_amenity_with_id(amenity_id):
 
 
 @app_views.route('/amenities/<amenity_id>', methods=['DELETE'])
-def delete_a_ameniity_with_id(state_id):
+def delete_a_ameniity_with_id(amenity_id):
     """delete an amenity using id"""
     answer = models.storage.get("Amenity", amenity_id)
     if answer:

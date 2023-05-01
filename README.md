@@ -157,6 +157,7 @@ No known bugs at this time.
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 Oyebamiji Mustapha - [Github](https://github.com/musoye) / [Twitter](htttps://twitter.com/musoye1)
+Aymeric Mbepa Mbou
 
 Second part of Airbnb: Joann Vuong
 Third part of Airbnb: Oyebamiji Mustapha
