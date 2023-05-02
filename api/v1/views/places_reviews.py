@@ -60,7 +60,7 @@ def add_a_review_router(review_id):
     if stat is None:
         abort(404)
     values = request.get_json()
-    new_state = Place(**values)
+    new_state = Review(**values)
     new_state.place_id = place_id
     new_state.save()
     return jsonify(new_state.to_dict()), 201
