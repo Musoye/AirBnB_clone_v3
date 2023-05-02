@@ -44,7 +44,7 @@ def delete_a_review_with_id(review_id):
 
 
 @app_views.route('/places/<place_id>/reviews', methods=['POST'])
-def add_a_review_router(review_id):
+def add_a_review_router(place_id):
     """create a review"""
     if not request.json:
         return jsonify({"error": "Not a JSON"}), 400
