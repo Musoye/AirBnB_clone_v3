@@ -55,7 +55,7 @@ def add_a_place_router(city_id):
     status = models.storage.get("City", city_id)
     if status is None:
         abort(404)
-    userid = request.get_json().get(user_id)
+    userid = request.get_json().get('user_id')
     stat = models.storage.get("User", userid)
     if stat is None:
         abort(404)
